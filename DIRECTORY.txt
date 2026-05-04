@@ -1,0 +1,15 @@
+Sovereign-Physiology-Audit/
+├── docs/
+│   ├── Clinical-Efficacy-Manifesto.md    # The case for Deterministic Sensory Input
+│   └── Standards-of-Solvency.pdf         # Certification requirements for med-centers
+├── src/
+│   ├── telemetry/
+│   │   ├── drift_forensics.py            # Measures vestibular-ocular latency
+│   │   └── entropy_load_calc.py          # Quantifies cognitive load of stochastic data[cite: 1]
+│   ├── vitrifiers/
+│   │   └── retinal_lattice_sync.py       # Deterministic pixel-to-photon alignment[cite: 3]
+│   └── validation/
+│       └── physics_violation_audit.py    # Detects smearing and NaN artifacts[cite: 1]
+├── hardware/
+│   └── Node-Attestation-Handshake.md     # MAC-locked licensing protocol
+└── README.md                             # Repository Master Documentation
